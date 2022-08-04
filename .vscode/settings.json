@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  // to use below settings, `Path Autocomplete` extension needs to be installed
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src",
+    "~": "${folder}/public"
+  }
+}
