@@ -1,11 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -27,19 +20,19 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Vite ChakraUI template</h3>
+  <h3 align="center">Vite ethers.js template</h3>
 
   <p align="center">
-    A handy template for a quick start a React project using Vite and ChakraUI 
+    A handy template for a quick start of a React project using Vite and Web3React with ethers.js
     <br />
-    <a href="https://github.com/masafumimori/Vite-ChakraUI-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/masafumimori/vite-ethersjs-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/masafumimori/Vite-ChakraUI-Template">View Demo</a>
+    <a href="https://github.com/masafumimori/vite-ethersjs-template">View Demo</a>
     ·
-    <a href="https://github.com/masafumimori/Vite-ChakraUI-Template/issues">Report Bug</a>
+    <a href="https://github.com/masafumimori/vite-ethersjs-template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/masafumimori/Vite-ChakraUI-Template/issues">Request Feature</a>
+    <a href="https://github.com/masafumimori/vite-ethersjs-template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -72,15 +65,14 @@
 
 ## About The Project
 
-Sometimes starting a project with all the settings configured is a bit of hassle.
-This template helps you to immediately start a React project using [Vitejs][vite-url] and [ChakraUI][chakraui-url]
+You can start working on building UI for dApps right away with this template made with [Vitejs][vite-url] and [Web3React][web3react-url]
 
 ### Built With
 
 - [![React][react.js]][react-url]
 - [![TypeScript][typescript]][typescript-url]
 - [![Vite][vite.js]][vite-url]
-- [![ChakraUI][chakraui]][chakraui-url]
+- [![Web3React][web3react]][web3react-url]
 
 <!-- GETTING STARTED -->
 
@@ -90,7 +82,7 @@ This template helps you to immediately start a React project using [Vitejs][vite
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/masafumimori/Vite-ChakraUI-Template
+   git clone https://github.com/masafumimori/vite-ethersjs-template
    ```
    or
    Press `Use this template` button at the top right on this page.
@@ -138,7 +130,7 @@ yarn format
 
 ## Usage
 
-Use this repository for a quick start without configuring stuff for using Vite and ChakraUI in React project.
+Use this repository for a quick start without configuring stuff for using Vite and Web3React in React project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,7 +161,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Masafumi Mori - m.masasafumi[at]outlook.com
 
-Project Link: [https://github.com/masafumimori/Vite-ChakraUI-Template](https://github.com/masafumimori/Vite-ChakraUI-Template)
+Project Link: [https://github.com/masafumimori/vite-ethersjs-template](https://github.com/masafumimori/vite-ethersjs-template)
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -179,7 +171,7 @@ Project Link: [https://github.com/masafumimori/Vite-ChakraUI-Template](https://g
 - [Img Shields](https://shields.io)
 - [React][react-url]
 - [Vitejs][vite-url]
-- [ChakraUI][chakraui-url]
+- [Web3React][web3react-url]
 - [TypeScript][typescript-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -188,15 +180,15 @@ Project Link: [https://github.com/masafumimori/Vite-ChakraUI-Template](https://g
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/masafumimori/Vite-ChakraUI-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/masafumimori/Vite-ChakraUI-Template/graphs/contributors
+[contributors-url]: https://github.com/masafumimori/vite-ethersjs-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/masafumimori/Vite-ChakraUI-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/masafumimori/Vite-ChakraUI-Template/fork
+[forks-url]: https://github.com/masafumimori/vite-ethersjs-template/fork
 [stars-shield]: https://img.shields.io/github/stars/masafumimori/Vite-ChakraUI-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/masafumimori/Vite-ChakraUI-Template/stargazers
+[stars-url]: https://github.com/masafumimori/vite-ethersjs-template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/masafumimori/Vite-ChakraUI-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/masafumimori/Vite-ChakraUI-Template/issues
+[issues-url]: https://github.com/masafumimori/vite-ethersjs-template/issues
 [license-shield]: https://img.shields.io/github/license/masafumimori/Vite-ChakraUI-Template.svg?style=for-the-badge
-[license-url]: https://github.com/masafumimori/Vite-ChakraUI-Template/master/LICENSE.txt
+[license-url]: https://github.com/masafumimori/vite-ethersjs-template/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/masafumi-mori-069ba219b/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -207,3 +199,5 @@ Project Link: [https://github.com/masafumimori/Vite-ChakraUI-Template](https://g
 [chakraui-url]: https://chakra-ui.com
 [typescript]: https://img.shields.io/badge/TypeScript-3077C6?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
+[web3react]: https://img.shields.io/badge/web3react-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white
+[web3react-url]: https://github.com/Uniswap/web3-react
