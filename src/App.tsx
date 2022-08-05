@@ -1,14 +1,19 @@
-import { Center, Heading, Image } from '@chakra-ui/react';
-import Sample from '@/components/Sample';
-import ReactIcon from '@/assets/react.svg';
+import MetaMaskCard from './components/MetaMaskCard';
 
 const App = () => {
   return (
-    <Center p={5} flexDir={'column'}>
-      <Heading>Vite ChakraUI template</Heading>
-      <Image src={ReactIcon} width={100} height={100} />
-      <Sample text={'Sample text'} />
-    </Center>
+    <div
+      style={{
+        width: '100vw',
+        height: '100vh',
+        padding: 20,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
+      }}>
+      <h1 style={{ textAlign: 'center' }}>Vite and ethers.js sample</h1>
+      <MetaMaskCard />
+    </div>
   );
 };
 

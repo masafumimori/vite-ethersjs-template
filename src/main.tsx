@@ -1,12 +1,13 @@
 import React from 'react';
-import { ChakraProvider, theme } from '@chakra-ui/react';
+import { Web3ReactProvider } from '@web3-react/core';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { connectors } from './connectors';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <ChakraProvider theme={theme} resetCSS>
+    <Web3ReactProvider connectors={connectors}>
       <App />
-    </ChakraProvider>
+    </Web3ReactProvider>
   </React.StrictMode>
 );

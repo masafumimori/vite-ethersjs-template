@@ -1,3 +1,0 @@
-type SampleType = {
-  text: string;
-};
