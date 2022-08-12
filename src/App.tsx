@@ -13,8 +13,9 @@ const App = () => {
         alignItems: 'center'
       }}>
       <h1 style={{ textAlign: 'center' }}>Vite and ethers.js sample</h1>
+      <h2>MetaMask Card</h2>
       <MetaMaskCard />
-      <p>Simple connect button</p>
+      <h2>Simple Connect Button</h2>
       <SimpleConnectButton />
     </div>
   );
