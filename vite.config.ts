@@ -13,5 +13,7 @@ export default defineConfig({
     // watch: {
     //   usePolling: true
     // }
-  }
+  },
+  // TODO: remove when you use this template for other projects
+  base: '/vite-ethersjs-template/'
 });
