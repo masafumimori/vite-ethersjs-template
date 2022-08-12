@@ -1,5 +1,5 @@
 {
-  "name": "vite-chakraui-template",
+  "name": "vite-ethersjs-template",
   "description": "A template for React projects using Vitejs and Web3React(ethers.js)",
   "private": false,
   "version": "0.0.1",
