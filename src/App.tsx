@@ -1,4 +1,5 @@
 import MetaMaskCard from './components/MetaMaskCard';
+import SimpleConnectButton from './components/SimpleConnectButton';
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
       }}>
       <h1 style={{ textAlign: 'center' }}>Vite and ethers.js sample</h1>
       <MetaMaskCard />
+      <p>Simple connect button</p>
+      <SimpleConnectButton />
     </div>
   );
 };
