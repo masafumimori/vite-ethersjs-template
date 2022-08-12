@@ -1,7 +1,17 @@
 {
   "name": "vite-chakraui-template",
-  "private": true,
-  "version": "0.0.0",
+  "description": "A template for React projects using Vitejs and Web3React(ethers.js)",
+  "private": false,
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "web3react",
+    "vite",
+    "ethersjs"
+  ],
+  "author": "Masafumi Mori",
+  "homepage": "https://masafumimori.github.io/vite-ethersjs-template",
   "type": "module",
   "scripts": {
     "dev": "vite",
