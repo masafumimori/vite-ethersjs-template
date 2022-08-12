@@ -28,7 +28,7 @@
     <a href="https://github.com/masafumimori/vite-ethersjs-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/masafumimori/vite-ethersjs-template">View Demo</a>
+    <a href="https://masafumimori.github.io/vite-ethersjs-template" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/masafumimori/vite-ethersjs-template/issues">Report Bug</a>
     ·
