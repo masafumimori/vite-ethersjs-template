@@ -20,6 +20,23 @@ const SimpleConnectButton = () => {
       setIsPending(false);
     }
   };
+
+  const disconnect = async () => {
+    setError('');
+    setIsPending(true);
+    try {
+      if (metaMask?.deactivate) {
+        await metaMask.deactivate();
+      } else {
+        await metaMask.resetState();
+      }
+    } catch (e) {
+      setError('Something went wrong. Please try again');
+    } finally {
+      setIsPending(false);
+    }
+  };
+
   return (
     <>
       {!isActive ? (
@@ -27,7 +44,7 @@ const SimpleConnectButton = () => {
           Connect to MetaMask
         </button>
       ) : (
-        <button onClick={connect} disabled={isPending}>
+        <button onClick={disconnect} disabled={isPending}>
           Disconnect
         </button>
       )}
