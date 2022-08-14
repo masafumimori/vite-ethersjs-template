@@ -33,9 +33,11 @@ const ContractInteractionSample = () => {
       setIsLoading(true);
 
       try {
-        const name = await contract.name();
-        const owner = await contract.owner();
-        const count = await contract.getCount();
+        const [name, owner, count] = await Promise.all([
+          contract.name(),
+          contract.owner(),
+          contract.getCount()
+        ]);
         setData({ name, owner, count });
       } catch (e) {
         console.error('Failed to fetch data from contract : ', e);
@@ -63,14 +65,16 @@ const ContractInteractionSample = () => {
     }
   };
 
-  if (isLoading && !data) return <div>Loading ...</div>;
+  if (!account)
+    return <p style={{ color: 'red' }}>Please connect your wallet</p>;
+
+  if (isLoading && !data.name) return <div>Loading ...</div>;
 
   if (chainId && chainId !== 80001)
     return <p style={{ color: 'red' }}>Switch to Mumbai network</p>;
 
   return (
     <>
-      {!data && <p>No Data</p>}
       {data && (
         <div>
           <p>Contract name: {data.name}</p>
