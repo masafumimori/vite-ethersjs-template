@@ -160,7 +160,7 @@ export const CHAINS: {
     urls: [
       import.meta.env.infuraKey
         ? `https://polygon-mumbai.infura.io/v3/${import.meta.env.infuraKey}`
-        : ''
+        : 'https://rpc-mumbai.maticvigil.com'
     ].filter(url => url !== ''),
     name: 'Polygon Mumbai',
     nativeCurrency: MATIC,
