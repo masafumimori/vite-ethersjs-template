@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useWeb3React } from '@web3-react/core';
 import { BigNumber } from 'ethers';
 import { useContract } from '@/hooks/useContract';
+import { SampleContract } from '@/types/SampleContract';
 
 // Contract address deployed to Mumbai network
 const SAMPLE_CONTRACT_ADDRESS = '0xF671Fa0653CaF290D4Ac66eb5D144D9c84Ea3FDE';
@@ -19,7 +20,11 @@ const ContractInteractionSample = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const { account, provider, chainId } = useWeb3React();
-  const contract = useContract(SAMPLE_CONTRACT_ADDRESS, ABI, true);
+  const contract = useContract<SampleContract>(
+    SAMPLE_CONTRACT_ADDRESS,
+    ABI,
+    true
+  );
 
   useEffect(() => {
     const load = async () => {
