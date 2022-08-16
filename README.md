@@ -44,16 +44,15 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -65,7 +64,7 @@
 
 ## About The Project
 
-You can start working on building UI for dApps right away with this template made with [Vitejs][vite-url] and [Web3React][web3react-url]
+You can start working on building UI for dApps right away with this template made with [Vitejs][vite-url] and [Web3React(ethers.js)][web3react-url]
 
 ### Built With
 
@@ -73,6 +72,20 @@ You can start working on building UI for dApps right away with this template mad
 - [![TypeScript][typescript]][typescript-url]
 - [![Vite][vite.js]][vite-url]
 - [![Web3React][web3react]][web3react-url]
+
+### Usage
+
+You can use this template for a quick start without configuration of Vite and Web3React in React project.
+
+You can also refer to sample components under `src/components/` directory.
+
+#### `SimpleConnectButton.tsx`
+
+This component shows how to implement connect/disconnect button for MetaMask browser extension.
+
+#### `ContractInteractionSample.tsx`
+
+This component shows how to interact with contracts using `useContract` hook.
 
 <!-- GETTING STARTED -->
 
@@ -125,12 +138,6 @@ npm run format
 or
 yarn format
 ```
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this repository for a quick start without configuring stuff for using Vite and Web3React in React project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
